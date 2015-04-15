@@ -1,0 +1,6 @@
+def median(cx, s):
+    x = s/2
+    if s % 2 != 0: return cx[x]
+    else: 
+    	y = (int(cx[x]) + int(cx[x-1])) / 2.0
+    	return y
