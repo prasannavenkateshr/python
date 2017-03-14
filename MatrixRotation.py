@@ -13,5 +13,5 @@ def MatrixRightRotate(matrix):
 def Display(m,n, matrix):
     for i in xrange(m):
         for j in xrange(n):
-            print t[i][j],
+            print matrix[i][j],
         print ""
